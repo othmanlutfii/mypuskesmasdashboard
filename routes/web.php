@@ -29,7 +29,6 @@ use App\Http\Controllers\ruangcontroller;
 // });
 
 Route::get('/', [Fakta_penjualanController::class,'index']);
-Route::get('/pasien', [PasienController::class,'index']);
 Route::get('/dokter', [doktercontroller::class,'index']);
 Route::get('/ruang', [ruangcontroller::class,'index']);
 

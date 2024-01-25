@@ -447,7 +447,7 @@ demo = {
       data: {
         labels: chart_labels,
         datasets: [{
-          label: "Tahun 2022",
+          label: "Overall",
           fill: true,
           backgroundColor: gradientStroke,
           borderColor: '#d346b1',
@@ -463,44 +463,6 @@ demo = {
           pointRadius: 4,
           data: chart_data
           // grg : gr
-        },
-        {
-          
-            label: "Tahun 2021",
-            fill: true,
-            backgroundColor: gradientStroke,
-            borderColor: '#d346b1',
-            borderWidth: 2,
-            borderDash: [],
-            borderDashOffset: 0.0,
-            pointBackgroundColor: '#d346b1',
-            pointBorderColor: 'rgba(255,255,255,0)',
-            pointHoverBackgroundColor: '#d346b1',
-            pointBorderWidth: 20,
-            pointHoverRadius: 4,
-            pointHoverBorderWidth: 15,
-            pointRadius: 4,
-            data: chart_data21
-            // grg : gr
-        
-        },
-        {
-            label: "Tahun 2020",
-            fill: true,
-            backgroundColor: gradientStroke,
-            borderColor: '#d346b1',
-            borderWidth: 2,
-            borderDash: [],
-            borderDashOffset: 0.0,
-            pointBackgroundColor: '#d346b1',
-            pointBorderColor: 'rgba(255,255,255,0)',
-            pointHoverBackgroundColor: '#d346b1',
-            pointBorderWidth: 20,
-            pointHoverRadius: 4,
-            pointHoverBorderWidth: 15,
-            pointRadius: 4,
-            data: chart_data20
-            // grg : gr
         }]
       },
       

@@ -52,7 +52,7 @@
 
         </div>
         <ul class="nav">
-          <li class="active ">
+          <li>
             <a href="/">
               <i class="tim-icons icon-chart-pie-36"></i>
               <p>Dashboard Transaksi</p>
@@ -64,7 +64,7 @@
               <p>Dashboard Pasien</p>
             </a>
           </li> --}}
-          <li>
+          <li class="active ">
             <a href="dokter">
               <i class="tim-icons icon-badge"></i>
               <p>Dashboard Dimensi</p>
@@ -183,7 +183,7 @@
           <div class="col-12">
             <div class="card ">
               <div class="card-header">
-                <h4 class="card-title"> Simple Table</h4>
+                <h4 class="card-title">Daftar Dokter</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive">

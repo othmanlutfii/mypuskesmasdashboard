@@ -52,50 +52,26 @@
 
         </div>
         <ul class="nav">
-          <li class="active ">
+          <li>
             <a href="/">
               <i class="tim-icons icon-chart-pie-36"></i>
               <p>Dashboard Transaksi</p>
             </a>
           </li>
-          {{-- <li>
-            <a href="">
-              <i class="tim-icons icon-single-02"></i>
-              <p>Dashboard Pasien</p>
-            </a>
-          </li> --}}
           <li>
             <a href="dokter">
               <i class="tim-icons icon-badge"></i>
               <p>Dashboard Dimensi</p>
             </a>
           </li>
-          <li>
+          <li class="active ">
             <a href="ruang">
               <i class="tim-icons icon-bank"></i>
               <p>Dashboard Ruangan</p>
             </a>
           </li>
 
-          {{-- <li>
-            <a href="./user.html">
-              <i class="tim-icons icon-single-02"></i>
-              <p>User Profile</p>
-            </a>
-          </li>
-          <li>
-            <a href="./tables.html">
-              <i class="tim-icons icon-puzzle-10"></i>
-              <p>Table List</p>
-            </a>
-          </li>
-          <li>
-            <a href="./typography.html">
-              <i class="tim-icons icon-align-center"></i>
-              <p>Typography</p>
-            </a>
-          </li> --}}
-
+        
         </ul>
       </div>
     </div>
@@ -185,33 +161,11 @@
               <div class="card-header ">
                 <div class="row">
                   <div class="col-sm-6 text-left">
-                    <h5 class="card-category">Total Shipments</h5>
-                    <h2 class="card-title">Performance</h2>
+                  <h2 class="card-title">Daftar Ruagan</h2>
+
                   </div>
                   <div class="col-sm-6">
-                    <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
-                      <label class="btn btn-sm btn-primary btn-simple active" id="0">
-                        <input type="radio" name="options" checked>
-                        <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Accounts</span>
-                        <span class="d-block d-sm-none">
-                          <i class="tim-icons icon-single-02"></i>
-                        </span>
-                      </label>
-                      <label class="btn btn-sm btn-primary btn-simple" id="1">
-                        <input type="radio" class="d-none d-sm-none" name="options">
-                        <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Purchases</span>
-                        <span class="d-block d-sm-none">
-                          <i class="tim-icons icon-gift-2"></i>
-                        </span>
-                      </label>
-                      <label class="btn btn-sm btn-primary btn-simple" id="2">
-                        <input type="radio" class="d-none" name="options">
-                        <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Sessions</span>
-                        <span class="d-block d-sm-none">
-                          <i class="tim-icons icon-tap-02"></i>
-                        </span>
-                      </label>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -246,8 +200,8 @@
                         <td>
                           {{ $key-> nama_gedung }} 
                         </td>
-                        <td>
-                          {{ $key-> kelas }} 
+                        <td style="text-align: center;">
+                          {{ $key->kelas }}
                         </td>
                       </tr>
                       @endforeach
@@ -279,7 +233,7 @@
             <div class="col-lg-6 col-md-12">
               <div class="card ">
                 <div class="card-header">
-                  <h4 class="card-title"> Simple Table</h4>
+                  <h4 class="card-title"> Total Pendapatan</h4>
                 </div>
                 <div class="card-body">
                   <div class="table-responsive">
